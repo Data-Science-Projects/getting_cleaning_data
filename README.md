@@ -18,6 +18,7 @@ The processing stages in the [run_analysis.R](./run_analysis.R) script are as fo
 - Process the test data set to create a data frame of the mean and std deviation variables by activity and subject
 - Process the training data set to create a data frame of the mean and std deviation variables by activity and subject
 - Merge, group and summarise the merged data set
+- Write the summarised data set to a file called "summarised_data_tbl.txt" with row.name=FALSE
 
 This project uses a data set with these license requirements:
 

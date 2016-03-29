@@ -87,3 +87,5 @@ tidy_names <- function(df) {
   
   df
 }
+
+write.table(run_analysis(), "summarised_data_tbl.txt", row.name=FALSE)
