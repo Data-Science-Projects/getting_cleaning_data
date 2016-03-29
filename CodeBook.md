@@ -3,7 +3,9 @@ here:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
-- activity
+The fields in the summarised data are:
+
+1. activity
 
 One of:
 
@@ -14,11 +16,11 @@ One of:
   - STANDING
   - LAYING
 
-- subject
+2. subject
 
 Numeric identifier for subject.
 
-- Mean feature values grouped by activity and subject
+3. Mean feature values grouped by activity and subject
 
 The colunms after the subject are feature values as listed below. Each feature value is the mean value,
 grouped by activity and subject.
@@ -29,6 +31,8 @@ The names are based on those explained in the "features_info.txt" and
  - All characters are lower case
  - All "-"s and "_"s
  - "()"s have been removed
+
+The variable names are:
 
   - tbodyacc_mean_x
   - tbodyacc_mean_y
