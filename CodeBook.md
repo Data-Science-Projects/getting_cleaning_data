@@ -25,11 +25,12 @@ Numeric identifier for subject.
 The colunms after the subject are feature values as listed below. Each feature value is the mean value,
 grouped by activity and subject.
 
-The names are based on those explained in the "features_info.txt" and
-"features.txt" files in the original data set, with the following transformations:
+The names are based on those explained in the "features_info.txt",
+which explains the units, and "features.txt", which lists all of the original variables, files
+included in the original data set, with the following transformations:
 
  - All characters are lower case
- - All "-"s and "_"s
+ - All "-"s are changed to "_"s
  - "()"s have been removed
 
 The variable names are:
