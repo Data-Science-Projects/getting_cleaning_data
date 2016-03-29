@@ -11,6 +11,14 @@ source("run_analysis.R")
 summarised_data_tbl <- run_analysis()
 ```
 
+The processing stages in the [run_analysis.R](./run_analysis.R) script are as follows:
+
+- Define variables for data locations
+- Download and unpack source data
+- Process the test data set to create a data frame of the mean and std deviation variables by activity and subject
+- Process the training data set to create a data frame of the mean and std deviation variables by activity and subject
+- Merge, group and summarise the merged data set
+
 This project uses a data set with these license requirements:
 
 Use of this dataset in publications must be acknowledged by referencing the following publication [1] 
