@@ -1,10 +1,10 @@
 # Getting and Cleaning Data Course Project Assignment
 
-The codebook for the summarised data set is in the (codebook.txt)[./codebook.txt] file.
+The codebook for the summarised data set is in the [codebook.txt](./codebook.txt) file.
 
-The R script that processes the data is in the (run_analysis.R)[./run_analysis.R] file.
+The R script that processes the data is in the [run_analysis.R](./run_analysis.R) file.
 
-The main function of the script is "run_analysis()", and can be used as illustrated below:
+The main function of the script is `run_analysis()`, and can be used as illustrated below:
 
 ```
 source("run_analysis.R")
